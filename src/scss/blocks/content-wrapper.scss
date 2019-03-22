@@ -7,6 +7,18 @@
   padding-left: 17.15vw;
   padding-right: 21.9vw;
 
+  @media screen and (max-width: $lgDesktopWidth) {
+    padding-top: rem(68);
+		padding-left: 15vw;
+    padding-right: 15vw;
+  }
+
+  @media screen and (max-width: $desktopWidth) {
+    padding-top: rem(55);
+		padding-left: 7vw;
+    padding-right: 7vw;
+  }
+
   &--col {
     flex-direction: column;
   }

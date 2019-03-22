@@ -15,5 +15,9 @@
     font-size: rem(13);
     text-transform: uppercase;
     text-align: center;
+
+    @media screen and (max-width: $tableWidth) {
+      font-size: rem(11);
+    }
   }
 }

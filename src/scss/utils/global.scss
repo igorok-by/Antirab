@@ -4,14 +4,22 @@ html {
 	color: $mainFontColor;
   height: 100%;
 
+  @media screen and (max-width: $lgDesktopWidth) {
+		font-size: 17px;
+  }
+
   @media screen and (max-width: $desktopWidth) {
 		font-size: 16px;
+  }
+
+  @media screen and (max-width: $smDesktopWidth) {
+		font-size: 15px;
   }
 
   @media screen and (max-width: $tableWidth) {
 		font-size: 14px;
   }
-  
+
   @media screen and (max-width: $phoneWidth) {
 		font-size: 12px;
   }
@@ -27,7 +35,9 @@ body {
   padding: 0;
 }
 
-*, *:before, *:after { box-sizing: border-box; }
+*,
+*:before,
+*:after { box-sizing: border-box; }
 
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 
@@ -36,9 +46,7 @@ a {
   color: inherit;
 }
 
-figure {
-  margin: 0;
-}
+figure { margin: 0; }
 
 input {
   color: $mainFontColor;
@@ -46,9 +54,7 @@ input {
   font-size: $mainFontSize;
 }
 
-p {
-  margin: 0;
-}
+p { margin: 0; }
 
 ul, li {
   list-style-type: none;
