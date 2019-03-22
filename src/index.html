@@ -9,103 +9,91 @@
 </head>
 <body>
 
-  <!-- main wrapper -->
-  <div class="wrapper">
+  <header class="header">
+    <a class="logo" href="#">
+      <img src="/assets/img/logo.png" class="logo__sign" alt="Logo Antirabstvo" >
+      <p class="logo__dscr">Найдите свое призвание</p>
+    </a>
 
-    <header class="header">
-      <figure class="logo">
-        <img src="/images/html-reference-logo.png" class="logo__sign" alt="HTML Reference logo" >
-        <figcaption class="logo__dscr">The HTML Reference logo</figcaption>
-      </figure>
+    <nav class="navbar">
+      
+      <form class="form" action="" method="">
+        <a href="#" class="button button--submit">
+          <img src="/assets/img/tel.png" class="button__img-tel" alt="Phone Icon">
+        </a>
 
-      <nav class="navbar">
-        
-        <form class="form" action="" method="">
-          <button type="submit" name="submit_button" class="btn btn--submit">
-            <img src="" alt="Arrow Icon">
-          </button>
+        <input type="tel" class="input" placeholder="Позвоните мне">
+      </form>
 
-          <input type="number" class="input">
-        </form>
+      <a href="#" class="button">Каталог консультантов</a>
 
-        <a href="#" class="btn"></a>
+      <a href="#" class="button">FAQ</a>
+      
+      <a href="#" class="button button--enter">Войти</a>
+      
+      <a href="#" class="button button--buy">
+        <img src="/assets/img/bag.svg" class="button__img-bag" alt="Bag Icon">
+      </a>
+    </nav>
+  </header>
 
-        <a href="#" class="btn"></a>
-        
-        <a href="#" class="btn"></a>
-        
-        <a href="#" class="btn"></a>
-      </nav>
-    </header>
+  <!-- wrapper for content -->
+  <div class="content-wrapper content-wrapper--grey">
 
-    <!-- wrapper for content -->
-    <div class="content-wrapper">
+    <!-- section -->
+    <section class="wrapper wrapper--col">
 
-      <!-- section -->
-      <section class="main-text">
+      <div class="heading">
+        <h2 class="heading__title">Сервисы трудоустройства &mdash;</h2>
+        <p class="heading__dscr">лучшие инструменты для поиска работы!</p>
+      </div>
 
-        <div class="heading">
-          <h2 class="heading__text"></h2>
-          <p class="heading__dscr"></p>
+      <div class="wrapper wrapper--col">
+
+        <div class="feature">
+          <figure class="icon">
+            <figcaption class="icon__numb">01</figcaption>
+            <img src="/assets/img/formula-icon.png" alt="Icon Formula-Lamp" class="icon__img">
+          </figure>
+
+          <p class="comment"><strong class="comment--underline">Формула успешного собеседования </strong><strong>&mdash;</strong><br>сервис подготовки к&nbsp;переговорам всего за&nbsp;24&nbsp;часа</p>
         </div>
 
-        <div class="wrapper">
+        <div class="feature">
+          <figure class="icon">
+            <figcaption class="icon__numb">02</figcaption>
+            <img src="/assets/img/rassilka-icon.png" alt="Icon Distribution" class="icon__img icon__img--distribution">
+          </figure>
 
-          <div class="feature">
-            <figure class="icon">
-              <figcaption class="icon__numb"></figcaption>
-              <img src="" alt="" class="icon__img">
-            </figure>
-            <div class="comment">
-              <h4 class="comment__heading"></h4>
-              <p class="comment__text"></p>
-            </div>
-          </div>
-
-          <div class="feature">
-            <figure class="icon">
-              <figcaption class="icon__numb"></figcaption>
-              <img src="" alt="" class="icon__img">
-            </figure>
-            <div class="comment">
-              <h4 class="comment__heading"></h4>
-              <p class="comment__text"></p>
-            </div>
-          </div>
-
-          <div class="feature">
-            <figure class="icon">
-              <figcaption class="icon__numb"></figcaption>
-              <img src="" alt="" class="icon__img">
-            </figure>
-            <div class="comment">
-              <h4 class="comment__heading"></h4>
-              <p class="comment__text"></p>
-            </div>
-          </div>
-
-          <div class="feature">
-            <figure class="icon">
-              <figcaption class="icon__numb"></figcaption>
-              <img src="" alt="" class="icon__img">
-            </figure>
-            <div class="comment">
-              <h4 class="comment__heading"></h4>
-              <p class="comment__text"></p>
-            </div>
-          </div>
-          
+          <p class="comment"><strong>Рассылка вашего резюме по&nbsp;базе HR-специалистов &mdash;</strong><br>более 2000+&nbsp;человек, заинтересованных в&nbsp;вашем профессионализме</p>
         </div>
-      </section>
 
-      <figure class="picture">
-        <img class="picture__img" src="/assets/img/screen4-image.jpg" alt="Girl help boy to write">
-      </figure>
+        <div class="feature">
+          <figure class="icon">
+            <figcaption class="icon__numb">03</figcaption>
+            <img src="/assets/img/sobesedovanie-icon.png" alt="Icon Interview" class="icon__img icon__img--interview">
+          </figure>
 
-    <!-- end content wrapper -->
-    </div>
+          <p class="comment"><strong>Персональное представление в&nbsp;компании</strong><br>по&nbsp;выбору кандидата&nbsp;&mdash; устройтесь в&nbsp;компанию-мечты</p>
+        </div>
 
-  <!-- end main wrapper -->
+        <div class="feature">
+          <figure class="icon">
+            <figcaption class="icon__numb">04</figcaption>
+            <img src="/assets/img/rezume-like-icon.png" alt="Icon Resume-Like" class="icon__img icon__img--resume">
+          </figure>
+
+          <p class="comment"><strong>Публикация на&nbsp;витрине кандидатов &mdash;</strong> площадка с&nbsp;аудиторией в&nbsp;160000+ потенциальных работодателей</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <figure class="picture">
+      <img class="picture__img" src="/assets/img/screen4-image.jpg" alt="Girl help boy to write">
+    </figure>
+
+  <!-- end content wrapper -->
   </div>
 
   <script src="/dist/app.js"></script>

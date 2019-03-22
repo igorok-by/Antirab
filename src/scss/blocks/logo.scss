@@ -1,10 +1,19 @@
 .logo {
+  width: 9.763vw;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: $text-focus;
+  }
 
   &__sign {
-
+    width: inherit;
   }
 
   &__dscr {
-    
+    line-height: rem(12);
+    font-size: rem(13);
+    text-transform: uppercase;
+    text-align: center;
   }
 }

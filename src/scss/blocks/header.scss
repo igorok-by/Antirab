@@ -1,1 +1,14 @@
-// header style
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: rem(70);
+  padding-left: 17.15vw;
+  padding-right: 17.15vw;
+  background-color: $default-color;
+  box-shadow: 0 2px 10px $neutral-secondary;
+}

@@ -1,10 +1,13 @@
 .heading {
+  padding-bottom: rem(53);
   
-  &__text {
-
+  &__title {
+    font-size: rem(36);
+    line-height: rem(62);
+    letter-spacing: rem(2.5);
   }
 
   &__dscr {
-    
+    font-size: rem(23);
   }
 }

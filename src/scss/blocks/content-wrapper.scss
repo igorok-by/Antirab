@@ -1,0 +1,17 @@
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin-top: rem(70);
+  padding-top: rem(88);
+  padding-left: 17.15vw;
+  padding-right: 21.9vw;
+
+  &--col {
+    flex-direction: column;
+  }
+
+  &--grey {
+    background-color: $light-color;
+  }
+}
