@@ -16,8 +16,8 @@
     text-transform: uppercase;
     text-align: center;
 
-    @media screen and (max-width: $tableWidth) {
-      font-size: rem(11);
+    @media screen and (max-width: $smDesktopWidth) {
+      display: none;
     }
   }
 }
