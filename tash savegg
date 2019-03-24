@@ -1,9 +1,0 @@
-* bf852d6 2019-03-22 | Fix problem with ./ (HEAD -> master, origin/master) [Igor B]
-*   f66559c 2019-03-22 | Merge branch 'master' of https://github.com/igorok-by/Antirab [Igor B]
-[32m|[m[33m\[m  
-[32m|[m * 7afffb3 2019-03-22 | Update readme.md [Igor B]
-* [33m|[m 8f9604e 2019-03-22 | Create dist [Igor B]
-[33m|[m[33m/[m  
-* f7f1a44 2019-03-22 | Finish @media to tableWidth [Igor B]
-* 72b9f0b 2019-03-22 | Finish pixelPerfect without @media [Igor B]
-* f0ffaf1 2019-03-20 | Adding blocks; adjust html [Igor B]

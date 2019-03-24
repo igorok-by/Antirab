@@ -20,7 +20,7 @@ module.exports = {
   output: {
     filename: `${PATHS.assets}js/[name].js`,
     path: PATHS.dist,
-    publicPath: '/'
+    publicPath: './'
   },
   module: {
     rules: [{
@@ -34,7 +34,7 @@ module.exports = {
         name: '[name].[ext]'
       }
     }, {
-      test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
+      test: /\.(woff|woff2|eot|ttf|svg)$/,
       loader: 'file-loader',
       options: {
         name: '[name].[ext]'
@@ -82,6 +82,7 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       { from: `${PATHS.src}/img`, to: `${PATHS.assets}img` },
+      { from: `${PATHS.src}/fonts/Ubuntu`, to: `${PATHS.assets}css` },
       { from: `${PATHS.src}/static`, to: '' },
     ])
   ]

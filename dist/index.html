@@ -5,17 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Antirabstvo</title>
-<link href="/assets/css/app.css" rel="stylesheet"></head>
+<link href="./assets/css/app.css" rel="stylesheet"></head>
 <body>
 
   <header class="header">
-    <a class="logo" href="#">
+
+    <!-- Logo -->
+    <a class="logo" href="https://antirabstvo.ru/">
       <img src="./assets/img/logo.png" class="logo__sign" alt="Logo Antirabstvo" >
       <p class="logo__dscr">Найдите свое призвание</p>
     </a>
 
-    <nav class="navbar">
-      
+    <!-- Nav Links -->
+    <nav class="navbar" id="navBar">
       <form class="form" action="" method="">
         <a href="#" class="button button--submit">
           <img src="./assets/img/tel.png" class="button__img-tel" alt="Phone Icon">
@@ -34,14 +36,24 @@
         <img src="./assets/img/bag.svg" class="button__img-bag" alt="Bag Icon">
       </a>
     </nav>
+
+    <!-- Button toggle Nav Links -->
+    <a class="menu-link" href="#" id="menuLink">
+      <i class="icon-menu">
+          <div class="icon-menu__item"></div>
+          <div class="icon-menu__item"></div>
+          <div class="icon-menu__item"></div>
+      </i>
+    </a>
   </header>
 
-  <!-- wrapper for content -->
+  <!-- Wrapper for content -->
   <div class="content-wrapper content-wrapper--grey">
 
-    <!-- section -->
+    <!-- Section with main text -->
     <section class="wrapper wrapper--col">
 
+      <!-- Heading text -->
       <div class="heading">
         <h2 class="heading__title">Сервисы трудоустройства &mdash;</h2>
         <p class="heading__dscr">лучшие инструменты для поиска работы!</p>
@@ -49,6 +61,7 @@
 
       <div class="wrapper wrapper--col">
 
+        <!-- List of Blocks -->
         <div class="feature">
           <figure class="icon">
             <figcaption class="icon__numb">01</figcaption>
@@ -88,6 +101,7 @@
       </div>
     </section>
 
+    <!-- Main Foto -->
     <figure class="picture">
       <img class="picture__img" src="./assets/img/screen4-image.jpg" alt="Girl help boy to write">
     </figure>
@@ -95,5 +109,5 @@
   <!-- end content wrapper -->
   </div>
 
-<script type="text/javascript" src="/assets/js/app.js"></script></body>
+<script type="text/javascript" src="./assets/js/app.js"></script></body>
 </html>
