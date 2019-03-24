@@ -21,4 +21,10 @@
 		padding-left: 7vw;
     padding-right: 7vw;
   }
+
+  @media screen and (max-width: $smDesktopWidth) {
+    height: rem(50);
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
 }

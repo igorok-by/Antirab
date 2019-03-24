@@ -8,6 +8,6 @@
   background-color: $neutral-placeholder;
 
   &:focus-within {
-    box-shadow: 0 3px 18px -3px $button-hov;
+    box-shadow: 0 3px 12px -3px $success-color;
   }
 }

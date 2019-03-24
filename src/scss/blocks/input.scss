@@ -1,10 +1,10 @@
 .input {
+  width: rem(158);
+  height: rem(32);
   padding-right: rem(13);
   border: none;
   border-radius: 0 rem(32) rem(32) 0;
   background-color: $neutral-placeholder;
-  width: rem(158);
-  height: rem(32);
 
   &::placeholder {
     padding-left: rem(8);

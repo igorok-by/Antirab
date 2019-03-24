@@ -19,6 +19,10 @@
     padding-right: 7vw;
   }
 
+  @media screen and (max-width: $smDesktopWidth) {
+    margin-top: rem(50);
+  }
+
   &--col {
     flex-direction: column;
   }
