@@ -1,6 +1,6 @@
 
 import './js/common'
-import './fonts/fonts.scss'
+// import './fonts/fonts.scss'
 import './css/main.css'
 import './scss/main.scss'
 

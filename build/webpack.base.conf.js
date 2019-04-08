@@ -34,10 +34,12 @@ module.exports = {
         name: '[name].[ext]'
       }
     }, {
-      test: /\.(woff|woff2|eot|ttf|svg)$/,
+      test: /\.(woff|woff2|eot|ttf)$/,
       loader: 'file-loader',
       options: {
-        name: '[name].[ext]'
+        name: '[name].[ext]',
+        outputPath: 'assets/fonts',
+        publicPath: '../fonts'
       }
     }, {
       test: /\.scss$/,
@@ -82,7 +84,7 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       { from: `${PATHS.src}/img`, to: `${PATHS.assets}img` },
-      { from: `${PATHS.src}/fonts/Ubuntu`, to: `${PATHS.assets}css` },
+      // { from: `${PATHS.src}/fonts`, to: `${PATHS.assets}/fonts` },
       { from: `${PATHS.src}/static`, to: '' },
     ])
   ]
